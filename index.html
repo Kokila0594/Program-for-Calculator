@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="CALCULATOR">
+        <h1><b>CALCULATOR</b></h1>
+        <input type="text" id="display" />
+        <div class="buttons">
+            <button onclick="clearDisplay()" class="button"><b>Clr</b></button>
+            <div class="button-wrap">
+                <button class="button"><b>(</b></button>
+                <button class="button"><b>)</b></button>
+                <button class="button"><b>%</b></button>
+                <button class="button"><b>#</b></button>
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue(7)" class="button"><b>7</b></button>
+                <button onclick="displayValue(8)" class="button"><b>8</b></button>
+                <button onclick="displayValue(9)" class="button"><b>9</b></button>
+                <button onclick="displayValue('/')" class="button"><b>/</b></button>
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue(4)" class="button"><b>4</b></button>
+                <button onclick="displayValue(5)" class="button"><b>5</b></button>
+                <button onclick="displayValue(6)" class="button"><b>6</b></button>
+                <button onclick="displayValue('*')" class="button"><b>*</b></button>
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue(1)" class="button"><b>1</b></button>
+                <button onclick="displayValue(2)" class="button"><b>2</b></button>
+                <button onclick="displayValue(3)" class="button"><b>3</b></button>
+                <button onclick="displayValue('-')" class="button"><b>-</b></button>
+            </div>
+            <div class="button-wrap">
+                <button onclick="displayValue('.')" class="button"><b>.</b></button>
+                <button onclick="displayValue(0)" class="button"><b>0</b></button>
+                <button onclick="displayValue('+')" class="button"><b>+</b></button>
+                <button onclick="calculate('=')" class="button"><b>=</b></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/Calculator/JS/calculator-script.js"></script>
+</html>
